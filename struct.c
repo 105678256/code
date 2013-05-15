@@ -2,17 +2,17 @@
 
 #define NAME 30
 
-	struct person{
-		int id;
-		char name[NAME];
-		int age;
-		struct birthday{
-			int year;
-			int month;
-			int day;
-		}bothday;
+struct person {
+	int id;
+	char name[NAME];
+	int age;
+	struct birthday {
+		int year;
+		int month;
+		int day;
+	} bothday;
 		
-	};
+};
 
 int main()
 {
